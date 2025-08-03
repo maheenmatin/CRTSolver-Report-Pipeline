@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crtsolver_report_pipeline"
+version = "1.0.0"
+description = ""
+authors = ["maheenmatin <maheenmatin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "crtsolver_report_pipeline", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pandas = "^2.0.0"
+matplotlib = "^3.7.0"
+crt-solver = {git = "https://github.com/maheenmatin/CRTSolver.git", branch = "feature"}
+cvc5-batchsolver = {git = "https://github.com/maheenmatin/cvc5-BatchSolver.git", branch = "feature"}  
+z3-batchsolver = {git = "https://github.com/maheenmatin/Z3-BatchSolver.git", branch = "feature"}
+ipykernel = "^6.30.0"
+notebook = "^7.4.4"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

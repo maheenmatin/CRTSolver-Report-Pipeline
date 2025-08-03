@@ -1,0 +1,40 @@
+TestInput,FileName,Variables,Degree,Runtime (s),Result
+1,theater,1var,2deg,0.0050563812255859375,[['UNKNOWN (TIMEOUT)']]
+2,cat,1var,2deg,0.002805948257446289,[['UNKNOWN (TIMEOUT)']]
+3,dog,1var,2deg,0.004361391067504883,"[['x', -3]]"
+4,house,1var,2deg,0.0016489028930664062,[['UNSAT']]
+5,elephant,1var,2deg,0.0025823116302490234,"[['x', 2]]"
+6,squirrel,1var,2deg,0.007134437561035156,[['UNKNOWN (TIMEOUT)']]
+7,enigma,1var,2deg,0.007413148880004883,[['UNKNOWN (TIMEOUT)']]
+8,rabbit,1var,2deg,0.0029685497283935547,"[['x', -1]]"
+9,plate,1var,3deg,0.00576472282409668,[['UNKNOWN (TIMEOUT)']]
+10,clown,1var,3deg,0.004677295684814453,[['UNKNOWN (TIMEOUT)']]
+11,nostalgia,1var,3deg,0.0030584335327148438,"[['x', -1]]"
+12,heart,1var,3deg,0.004706382751464844,[['UNKNOWN (TIMEOUT)']]
+13,home,1var,3deg,0.002955913543701172,[['UNKNOWN (TIMEOUT)']]
+14,terminate,1var,3deg,0.0014109611511230469,[['UNSAT']]
+15,rose,1var,3deg,0.008913993835449219,[['UNKNOWN (TIMEOUT)']]
+16,truck,2var,2deg,0.005860567092895508,"[['x', 3], ['y', -3]]"
+17,unusual,2var,2deg,0.010895013809204102,[['UNKNOWN (TIMEOUT)']]
+18,faint,2var,2deg,0.011055707931518555,[['UNKNOWN (TIMEOUT)']]
+19,machine,2var,2deg,0.003563404083251953,[['UNKNOWN (TIMEOUT)']]
+20,small,2var,2deg,0.009609699249267578,[['UNKNOWN (TIMEOUT)']]
+21,waste,2var,3deg,0.0069315433502197266,[['UNSAT']]
+22,touch,2var,3deg,0.011993885040283203,[['UNKNOWN (TIMEOUT)']]
+23,moon,2var,3deg,0.013606548309326172,[['UNKNOWN (TIMEOUT)']]
+24,inertia,2var,3deg,0.011032342910766602,[['UNKNOWN (TIMEOUT)']]
+25,email,2var,3deg,0.006247758865356445,"[['x', 2], ['y', -1]]"
+26,oblong,2var,3deg,0.009506464004516602,"[['x', -3], ['y', -3]]"
+27,forget,2var,3deg,0.010910272598266602,[['UNKNOWN (TIMEOUT)']]
+28,train,3var,2deg,0.0394742488861084,[['UNKNOWN (TIMEOUT)']]
+29,beast,3var,2deg,0.02568960189819336,"[['x', 2], ['y', -4], ['z', 5]]"
+30,doctor,3var,2deg,0.0384373664855957,[['UNKNOWN (TIMEOUT)']]
+31,vampire,3var,2deg,0.015134334564208984,"[['x', 2], ['y', -4], ['z', 2]]"
+32,robot,3var,3deg,0.025239229202270508,"[['x', 4], ['y', -4], ['z', 1]]"
+33,professor,3var,3deg,0.04334259033203125,[['UNKNOWN (TIMEOUT)']]
+34,titanium,3var,3deg,0.03888440132141113,[['UNKNOWN (TIMEOUT)']]
+35,bar,3var,3deg,0.033480167388916016,[['UNKNOWN (TIMEOUT)']]
+36,tank,3var,3deg,0.009577512741088867,"[['x', 0], ['y', 2], ['z', 0]]"
+37,western,3var,3deg,0.03877878189086914,[['UNKNOWN (TIMEOUT)']]
+38,motor,3var,3deg,0.0029621124267578125,[['UNSAT']]
+Totals: 38,n/a,0.4876723289489746s,"11 SAT, 4 UNSAT, 23 UNKNOWN"

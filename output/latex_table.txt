@@ -1,0 +1,38 @@
+cat & 1 & 2 & 1 & UNSAT & T/O & $1.71 \times 10^{-02}$ & $1.34 \times 10^{-02}$ & $3.48 \times 10^{-02}$ \\
+dog & 1 & 2 & 1 & SAT & $1.98 \times 10^{-01}$ & $1.82 \times 10^{-02}$ & $1.78 \times 10^{-02}$ & $9.67 \times 10^{-03}$ \\
+elephant & 1 & 2 & 1 & SAT & $5.58 \times 10^{-01}$ & $4.11 \times 10^{-03}$ & $5.24 \times 10^{-03}$ & $1.91 \times 10^{-02}$ \\
+enigma & 1 & 2 & 3 & SAT & T/O & $1.75 \times 10^{-02}$ & $3.89 \times 10^{-03}$ & $8.65 \times 10^{-03}$ \\
+house & 1 & 2 & 1 & UNSAT & T/O & $3.00 \times 10^{-03}$ & $8.58 \times 10^{-03}$ & $1.77 \times 10^{-02}$ \\
+rabbit & 1 & 2 & 1 & SAT & $5.63 \times 10^{-01}$ & $6.05 \times 10^{-03}$ & $4.91 \times 10^{-03}$ & $6.77 \times 10^{-03}$ \\
+squirrel & 1 & 2 & 1 & UNSAT & T/O & $1.45 \times 10^{-02}$ & $3.64 \times 10^{-03}$ & $1.02 \times 10^{-02}$ \\
+theater & 1 & 2 & 1 & UNSAT & T/O & $1.86 \times 10^{-02}$ & $3.90 \times 10^{-02}$ & $2.10 \times 10^{-02}$ \\
+clown & 1 & 3 & 1 & UNSAT & T/O & $6.49 \times 10^{-02}$ & $4.56 \times 10^{-03}$ & T/O \\
+heart & 1 & 3 & 1 & SAT & $6.68 \times 10^{-03}$ & $1.68 \times 10^{-02}$ & $8.48 \times 10^{-03}$ & $7.61 \times 10^{-03}$ \\
+home & 1 & 3 & 1 & SAT & $8.83 \times 10^{-03}$ & $6.39 \times 10^{-03}$ & $6.99 \times 10^{-03}$ & $8.80 \times 10^{-03}$ \\
+nostalgia & 1 & 3 & 1 & SAT & $4.10 \times 10^{-01}$ & $1.21 \times 10^{-02}$ & $4.59 \times 10^{-03}$ & $4.04 \times 10^{-01}$ \\
+plate & 1 & 3 & 1 & UNSAT & T/O & $9.24 \times 10^{-02}$ & $1.86 \times 10^{-02}$ & T/O \\
+rose & 1 & 3 & 1 & UNSAT & T/O & $2.19 \times 10^{-02}$ & $1.80 \times 10^{-02}$ & T/O \\
+terminate & 1 & 3 & 3 & UNSAT & T/O & $3.14 \times 10^{-03}$ & $2.36 \times 10^{-03}$ & $6.34 \times 10^{-03}$ \\
+faint & 2 & 2 & 1 & UNSAT & T/O & U ($8.26 \times 10^{-01}$) & $8.27 \times 10^{-03}$ & $3.34 \times 10^{-01}$ \\
+machine & 2 & 2 & 4 & SAT & T/O & U ($5.65 \times 10^{-01}$) & $2.48 \times 10^{-03}$ & $2.68 \times 10^{-02}$ \\
+small & 2 & 2 & 1 & SAT & $7.20 \times 10^{-01}$ & $1.11 \times 10^{-01}$ & $2.94 \times 10^{-03}$ & $6.97 \times 10^{-02}$ \\
+truck & 2 & 2 & 1 & SAT & $2.32 \times 10^{-01}$ & $2.56 \times 10^{-02}$ & $5.54 \times 10^{-03}$ & $1.820$ \\
+unusual & 2 & 2 & 1 & UNSAT & T/O & U ($5.64 \times 10^{-01}$) & $3.77 \times 10^{-03}$ & $5.18 \times 10^{-01}$ \\
+email & 2 & 3 & 1 & SAT & $3.70 \times 10^{-01}$ & $8.81 \times 10^{-02}$ & $3.82 \times 10^{-03}$ & $4.33 \times 10^{-01}$ \\
+forget & 2 & 3 & 1 & UNSAT & T/O & U ($1.212$) & T/O & T/O \\
+inertia & 2 & 3 & 1 & UNSAT & T/O & U ($9.07 \times 10^{-01}$) & T/O & T/O \\
+moon & 2 & 3 & 4 & UNSAT & T/O & $7.41 \times 10^{-02}$ & $5.22 \times 10^{-03}$ & $6.93 \times 10^{-02}$ \\
+oblong & 2 & 3 & 1 & SAT & $1.47 \times 10^{-02}$ & $2.92 \times 10^{-02}$ & $1.96 \times 10^{-03}$ & $7.92 \times 10^{-03}$ \\
+touch & 2 & 3 & 1 & UNSAT & T/O & $8.22 \times 10^{-02}$ & T/O & $1.94 \times 10^{-01}$ \\
+waste & 2 & 3 & 1 & UNSAT & $4.97 \times 10^{-03}$ & $4.54 \times 10^{-03}$ & $2.04 \times 10^{-03}$ & $6.17 \times 10^{-03}$ \\
+beast & 3 & 2 & 1 & SAT & $2.86 \times 10^{-01}$ & $8.91 \times 10^{-02}$ & $4.36 \times 10^{-03}$ & $1.683$ \\
+doctor & 3 & 2 & 4 & UNSAT & T/O & $1.04 \times 10^{-01}$ & $3.41 \times 10^{-03}$ & $6.14 \times 10^{-03}$ \\
+train & 3 & 2 & 4 & SAT & T/O & $3.66 \times 10^{-01}$ & $5.50 \times 10^{-03}$ & T/O \\
+vampire & 3 & 2 & 1 & SAT & $2.55 \times 10^{-01}$ & $5.80 \times 10^{-02}$ & $3.35 \times 10^{-03}$ & $5.07 \times 10^{-03}$ \\
+bar & 3 & 3 & ? & 1 & T/O & U ($3.196$) & T/O & T/O \\
+motor & 3 & 3 & 4 & UNSAT & T/O & $2.52 \times 10^{-01}$ & $3.75 \times 10^{-03}$ & T/O \\
+professor & 3 & 3 & 4 & SAT & $1.47 \times 10^{-01}$ & $1.73 \times 10^{-01}$ & $5.52 \times 10^{-03}$ & $8.13 \times 10^{-02}$ \\
+robot & 3 & 3 & 1 & SAT & $8.47 \times 10^{-02}$ & $7.20 \times 10^{-02}$ & $2.63 \times 10^{-03}$ & $1.04 \times 10^{-02}$ \\
+tank & 3 & 3 & 1 & SAT & $2.89 \times 10^{-01}$ & $1.76 \times 10^{-01}$ & $2.72 \times 10^{-03}$ & $1.580$ \\
+titanium & 3 & 3 & 1 & ? & T/O & U ($2.651$) & T/O & T/O \\
+western & 3 & 3 & 1 & ? & T/O & U ($3.543$) & T/O & T/O \\

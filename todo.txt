@@ -1,0 +1,12 @@
+1. Add dependencies in requirements.txt
+2. Decouple cactus plot generation from comparative_analysis.ipynb
+3. Revise cactus.pdf output path to directory entitled "output"
+4. Revise output paths in csv_combiner and latex_creator
+5. Develop a script that runs everything with one click
+
+
+1. Create "feature" branches for cvc5-BatchSolver and Z3-BatchSolver
+2. Update pyproject.toml to use feature branch
+3. Bugfix as necessary
+    1. put this in __init__.py -> from .crt_solver import CRTSolver
+    
