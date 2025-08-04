@@ -1,7 +1,7 @@
 # CRTSolver-Report-Pipeline
 Automated end-to-end data pipeline for generating quantitative performance reports for CRTSolver
 
-**### 🧰 Installation**
+**🧰 Installation**
 
 1. **Clone the repository:**
    ```bash
@@ -24,13 +24,25 @@ Automated end-to-end data pipeline for generating quantitative performance repor
    poetry env activate
    ```
 
-5. **Run the solver:**
+5. **Add Jupyter Notebook functionality:**
    ```bash
-   poetry run python -m crtsolver_report_pipeline.comparative_analysis.ipynb
+   poetry add jupyter ipykernel
    ```
 
-6. poetry add ipykernel notebook
+6. **Create kernel:**
+   ```bash
+   poetry run python -m ipykernel install --user --name=crtsolver-report-pipeline
+   ```
 
-7. poetry run python -m ipykernel install --user --name=crtsolver-report-pipeline
+7. **Run the notebook:**
+   ```bash
+   poetry run jupyter notebook
+   ```
 
-8. poetry run jupyter notebook
+8. **Navigate to the comparative analysis:**
+   - `src/` -> `crtsolver_report_pipeline` -> `comparative_analysis.ipynb`
+
+9. **Set the kernel:**
+   - `crtsolver-report-pipeline`
+
+10. **Run the cells**
